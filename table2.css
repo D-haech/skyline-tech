@@ -1,34 +1,23 @@
 table, td, tr, th {
 
-    border-bottom: 1px solid;
+    border: 1px solid;
     border-collapse: collapse;
-    padding: 10px 20px;
+    padding: 5px 20px;
     font-size: 20px;
     
-    
-    
     }
     
-    /* styling the span for good and bad sign */
-    .good{
-        border: 1px ;
-        /* width: 5px; */
-        background-color: darkgreen;
-        padding: 1px 4px;
+
+    /* styling the button for approved */
+    input[type=button]{
         border-radius: 3px;
     }
     
-    .bad{
-        border: 1px ;
-        /* width: 5px; */
-        background-color: rgb(236, 11, 11);
-        padding: 1px 4px;
-        border-radius: 3px;
+    /* |||||||||||||||||||||| */
+
+    th:nth-child(2){
+        width: 60%;
     }
-    /* span i{
-        width: 10px;
-    } */
-    
     /* styling the container session */
     
     .container {
@@ -36,13 +25,13 @@ table, td, tr, th {
     justify-content: center;
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    
     
     }
     
     table {
     
-     width: 75%;
+     width: 70%;
      
     }
     

@@ -1,2 +1,2 @@
 # skyline-tech
-The table displays Cohort 21 members records.
+The table displays the approved result of the members of Cohort 21
