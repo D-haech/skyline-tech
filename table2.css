@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -11,10 +12,13 @@ caption{
     margin-bottom: 10px;
 }
 
+=======
+>>>>>>> 05e74071d417986315e5986c5b71686fec7d6147
 table, td, tr, th {
 
     border: 1px solid;
     border-collapse: collapse;
+<<<<<<< HEAD
     padding: 5px 10px;
     font-weight: bold;
     
@@ -42,10 +46,32 @@ th:nth-child(2){
     /* styling the container session */
     
 .container {
+=======
+    padding: 5px 20px;
+    font-size: 20px;
+    
+    }
+    
+
+    /* styling the button for approved */
+    input[type=button]{
+        border-radius: 3px;
+    }
+    
+    /* |||||||||||||||||||||| */
+
+    th:nth-child(2){
+        width: 60%;
+    }
+    /* styling the container session */
+    
+    .container {
+>>>>>>> 05e74071d417986315e5986c5b71686fec7d6147
     
     justify-content: center;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
 }
     
 table {
@@ -77,3 +103,30 @@ tr:nth-child(odd) {
 
     background-color: lightgrey;
 } */
+=======
+    
+    
+    }
+    
+    table {
+    
+     width: 70%;
+     
+    }
+    
+    th {
+     background-color: dodgerblue;
+     padding: 20px;
+     color: white;
+     /* text-align: center; */
+     text-align: left;
+    font-size: 20px;
+    }
+    
+    td {
+     text-align: justify;
+    }
+    tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.3);
+    }
+>>>>>>> 05e74071d417986315e5986c5b71686fec7d6147
